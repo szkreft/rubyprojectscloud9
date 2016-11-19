@@ -1,16 +1,29 @@
 <h1>Create an article</h1>
 
-<%= form_for @article do |x| %>
+
+<h2> The following erros prevented the article from getting created</h2>
+<% if @article.errors.any? %>
+<% @article.errors.full_messages.each do |msg| %>
+<ul>
+    <li>
+        <%= msg %>
+    </li>
+</ul>
+<% end %>
+<% end %>
+
+
+<%= form_for @article do |t| %>
 <p>
-    <%= x.label :title %><br/>
-    <%= x.text_field :title %>
+    <%= t.label :title %><br/>
+    <%= t.text_field :title %>
 </p>
 <p>
-    <%= x.label :description %><br/>
-    <%= x.text_area :description %> 
+    <%= t.label :description %><br/>
+    <%= t.text_area :description %> 
 </p>
 <p>
-    <%= x.submit %>
+    <%= t.submit %>
 </p>
 
 <% end %>
