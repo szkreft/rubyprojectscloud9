@@ -6,7 +6,6 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   
   root 'welcome#welcome'
-  get 'home', to: 'welcome#home'
   get 'about', to: 'welcome#about'
   
   resources :articles
