@@ -1,5 +1,5 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
-$navbar-default-bg: #990000;
+$navbar-default-bg: #a4ecfc;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -40,22 +40,22 @@ $navbar-default-bg: #990000;
 }
 
 .btn-xlarge {
-    font-size: 1.7en;
+    font-size: 2en;
     background-color: black;
 }
 
 
 .article-meta-details {
-    border-top: 1px solid #eaeaea;
+    border-top: 1.5px solid #a4ecfc;
     margin-top: 14px;
 }
 
 .article-actions {
-    border-top: 1px solid #eaeaea;
-    padding-top: 5px;
+    border-top: 1.5px solid #a4ecfc;
+    padding-top: 10px;
 }
 .user-action {
-    padding-top: 5px;
+    padding-top: 10px;
 }
 .description {
     margin-top: 0;
@@ -63,36 +63,34 @@ $navbar-default-bg: #990000;
 
 .article-title {
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.69em;
     
 }
 
 .article-body {
-    border-top: 1px solid #eaeaea;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border-top: 1.5px solid #a4ecfc;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .listing {
     list-style: none;
     padding-left: 0px;
-    
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 20px;
     padding-top: 5px;
-    border-top: 1px solid #eaeaea;
-    color: #777;
+    border-top: 1px solid #a4ecfc;
+    color: #000000;
 }
 
 footer a:hover {
-    color: #222;
+    color: orange;
 }
 
 footer small {
     float: left;
-    
 }
 
 footer ul {
@@ -104,3 +102,4 @@ footer ul li {
     float: left;
     margin-left: 10px;  
 }
+
