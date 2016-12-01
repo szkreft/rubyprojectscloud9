@@ -20,4 +20,10 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  app_title: Sebastian's Blg
+  app_description: A place where you can create articles.
+  
+  about_html:
+    title: About us
+    about_us: Complete the following form to get in touch with us.
+        
