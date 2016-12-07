@@ -93,6 +93,14 @@ $navbar-default-bg: #a4ecfc;
     padding-left: 0px;
 }
 
+.badge {
+    background-color: #a4ecfc;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+
 // footer styling here 
 footer {
     margin-top: 20px;
@@ -118,4 +126,3 @@ footer ul li {
     float: left;
     margin-left: 10px;  
 }
-
